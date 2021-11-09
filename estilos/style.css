@@ -12,3 +12,16 @@ main {
   padding: 10px;
   box-shadow: 3px 3px 5px black;
 }
+aside {
+  display: flex;
+  font-size: 10pt;
+  text-align: justify;
+  background-color: rgb(222, 222, 222);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+aside img {
+  width: 100px;
+  height: 50px;
+}

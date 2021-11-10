@@ -3,7 +3,7 @@
   font: size 16px;
 }
 body {
-  background-color: rgb(182, 115, 245);
+  background-color: rgb(163, 146, 241);
 }
 main {
   background-color: white;
@@ -12,16 +12,9 @@ main {
   padding: 10px;
   box-shadow: 3px 3px 5px black;
 }
-aside {
-  display: flex;
-  font-size: 10pt;
-  text-align: justify;
-  background-color: rgb(222, 222, 222);
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 10px;
+img.lado {
+  float: right;
 }
-aside img {
-  width: 100px;
-  height: 50px;
+button {
+  float: right;
 }

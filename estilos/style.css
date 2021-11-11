@@ -26,7 +26,3 @@ a:hover {
 a {
   transition: all 1s;
 }
-.html {
-  float: left;
-  display: flex;
-}

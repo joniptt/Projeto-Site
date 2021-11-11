@@ -6,10 +6,12 @@ body {
   background-color: rgb(163, 146, 241);
 }
 main {
+  border-radius: 50px;
   background-color: white;
   width: 500px;
+  height: 550px;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 3px 3px 5px black;
 }
 img.lado {
@@ -17,4 +19,14 @@ img.lado {
 }
 button {
   float: right;
+}
+a:hover {
+  filter: contrast(30%);
+}
+a {
+  transition: all 1s ease;
+}
+.html {
+  float: left;
+  display: flex;
 }

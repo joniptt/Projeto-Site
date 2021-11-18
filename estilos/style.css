@@ -14,15 +14,27 @@ main {
   padding: 30px;
   box-shadow: 3px 3px 5px black;
 }
+div {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  flex: auto;
+  display: block;
+  transition: all 1s;
+}
+div:hover {
+  width: 200px;
+  height: 200px;
+}
 img.lado {
   float: right;
 }
 button {
   float: right;
 }
-a:hover {
-  filter: contrast(30%);
-}
 a {
   transition: all 1s;
+}
+a:hover {
+  filter: contrast(30%);
 }
